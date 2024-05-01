@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/** Pricing Boxes */
+
+.box-pricing {
+	position: relative;
+	overflow: hidden;
+	max-width: 370px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 70px 15px 0;
+	border-radius: 8px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
+}
+
+.box-pricing .button {
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.box-pricing-black {
+	color: #ffffff;
+	background: #1b1929;
+}
+
+.box-pricing-black .box-pricing-time,
+.box-pricing-black .box-pricing-price,
+.box-pricing-black .box-pricing-title {
+	color: inherit;
+}
+
+.box-pricing-black .divider {
+	background: rgba(225, 225, 225, 0.2);
+}
+
+.box-pricing-black .box-pricing-list > li {
+	color: #5d6264;
+}
+
+.box-pricing-black .box-pricing-list > li::before {
+	color: #5d6264;
+}
+
+.box-pricing-black .box-pricing-list > li.active {
+	color: inherit;
+}
+
+.box-pricing-black .box-pricing-list > li.active::before {
+	color: #6689ff;
+}
+
+.box-pricing-black .button-gray-4, .box-pricing-black .button-gray-4:focus {
+	color: #ffffff;
+	background-color: #494c51;
+	border-color: #494c51;
+}
+
+.box-pricing-divider {
+	position: relative;
+	padding: 35px 0;
+}
+
+.box-pricing-divider > span {
+	display: inline-block;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	font-size: 55px;
+	line-height: 1;
+	font-weight: 500;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	color: rgba(255, 255, 255, 0.05);
+	transform: translate3d(-50%, -50%, 0);
+	will-change: transform;
+	white-space: nowrap;
+}
+
+.box-pricing-popular .box-pricing-badge {
+	display: inline-block;
+}
+
+.box-pricing-body {
+	max-width: 260px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box-pricing-title {
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+.box-pricing-time {
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 500;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.box-pricing-button {
+	margin-top: 40px;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.box-pricing-list {
+	text-align: left;
+}
+
+.box-pricing-list > li {
+	text-indent: -25px;
+	padding-left: 25px;
+	color: #9b9b9b;
+}
+
+.box-pricing-list > li::before {
+	position: relative;
+	display: inline-block;
+	content: '\f00c';
+	left: 0;
+	top: 0;
+	width: 25px;
+	font-size: 14px;
+	line-height: 1;
+	text-indent: 0;
+	font-family: "FontAwesome";
+	color: #9b9b9b;
+}
+
+.box-pricing-list > li.active {
+	color: #151515;
+}
+
+.box-pricing-list > li.active::before {
+	color: #6689ff;
+}
+
+.box-pricing-list > li + li {
+	margin-top: 14px;
+}
+
+.box-pricing-badge {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	display: none;
+	padding: 8px 13px;
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 600;
+	letter-spacing: .075em;
+	text-transform: uppercase;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	color: #ffffff;
+	background: #6689ff;
+	border-radius: 4px;
+}
+
+* + .box-pricing-price {
+	margin-top: 4px;
+}
+
+* + .box-pricing-time {
+	margin-top: 6px;
+}
+
+* + .box-pricing-list {
+	margin-top: 30px;
+}
+
+.divider + .box-pricing-list {
+	margin-top: 0;
+}
+
+.box-pricing-divider + .box-pricing-list {
+	margin-top: 0;
+}
+
+@media (min-width: 576px) {
+	.box-pricing-divider > span {
+		font-size: 60px;
+		color: rgba(255, 255, 255, 0.03);
+	}
+}
+
+@media (min-width: 992px) {
+	.box-pricing-divider > span {
+		font-size: 68px;
+	}
+}
