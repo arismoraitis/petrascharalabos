@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /** @section Owl Carousel */
 
 .owl-carousel .animated {
@@ -859,14 +861,6 @@
     z-index: 6;
 }
 
-.unit+p {
-    margin-top: 15px;
-}
-
-.unit+.unit {
-    margin-top: 7px;
-}
-
 
 /** @section Units */
 
@@ -935,4 +929,14 @@
 .unit-spacing-lg>* {
     margin-bottom: 40px;
     margin-left: 40px;
+}
+
+blockquote {
+    padding: 0;
+    margin: 0;
+}
+
+blockquote {
+    padding-left: 0;
+    border-left: 0;
 }
