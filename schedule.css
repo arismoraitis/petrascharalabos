@@ -1,0 +1,197 @@
+/** @section Schedule */
+
+.schedule {
+    color: #ffffff;
+}
+
+.schedule .schedule-item-body {
+    padding: 24px 30px 40px;
+    transition: .2s ease-in-out;
+}
+
+.schedule .btn {
+    padding: 16px 37px;
+}
+
+.schedule hr {
+    margin-top: 13px;
+    background: #5d79b8;
+    opacity: .2;
+}
+
+.schedule .schedule-more {
+    width: 100%;
+    transition: .2s ease-in-out;
+}
+
+@media (min-width: 992px) {
+    .schedule .schedule-more {
+        position: absolute;
+        bottom: 0;
+        pointer-events: none;
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+
+.schedule .schedule-item-body {
+    background: #3557a6;
+}
+
+.schedule .schedule-item {
+    position: relative;
+}
+
+.schedule .schedule-item.light .schedule-item-body {
+    background: #3b61b9;
+}
+
+@media (min-width: 992px) {
+    .schedule .schedule-item.first .schedule-item-body {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .schedule .schedule-item.last .schedule-item-body {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .schedule .schedule-item .schedule-item-body {
+        max-height: 286px;
+        height: 286px;
+    }
+    .schedule .schedule-item:hover .schedule-item-body {
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+    .schedule .schedule-item:hover .schedule-more {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        pointer-events: all;
+        opacity: 1;
+    }
+    .schedule .schedule-item:hover .schedule-item-body {
+        -webkit-transform: translateY(-60px);
+        transform: translateY(-60px);
+    }
+}
+
+.tablet .schedule-item-body,
+.mobile .schedule-item-body {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.tablet .schedule-more,
+.mobile .schedule-more {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    pointer-events: all;
+    opacity: 1;
+}
+
+.tablet .schedule-item-body,
+.mobile .schedule-item-body {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+
+
+.bg-default-liac {
+    background-color: #F1F3F9;
+}
+
+.bg-default-liac:not([style*="background-"])+.bg-default-liac:not([style*="background-"]) {
+    padding-top: 0;
+}
+
+    .section-lg-top-85 {
+        padding-top: 85px;
+    }
+
+.section-top-50 {
+    padding-top: 50px;
+}
+
+    .row-lg-70 {
+        margin-bottom: -70px;
+    }
+    .row-lg-70:empty {
+        margin-bottom: 0;
+    }
+    .row-lg-70>* {
+        margin-bottom: 70px;
+    }
+
+.row-30 {
+    margin-bottom: -30px;
+}
+
+.row-30:empty {
+    margin-bottom: 0;
+}
+
+.row-30>* {
+    margin-bottom: 30px;
+}
+
+[data-isotope-layout] .row.g-0 {
+    margin-bottom: 0;
+}
+
+[data-isotope-layout] .row.g-0>[class*="col-"] {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+@media (min-width: 992px) {
+    .div-lg-0 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+*+.offset-top-34 {
+    margin-top: 34px;
+}
+
+
+@media (min-width: 992px) {
+    *+.offset-lg-top-34 {
+        margin-top: 34px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html .page .offset-lg-top-34-negative {
+        margin-top: -34px;
+    }
+}
+
+@media (min-width: 480px) {
+    .section-sm-top-34 {
+        padding-top: 34px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .section-xxl-top-34 {
+        padding-top: 34px;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-md-top-34 {
+        padding-top: 34px;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-lg-top-34 {
+        padding-top: 34px;
+    }
+}
+  
+
