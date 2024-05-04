@@ -335,3 +335,55 @@
         margin-top: 110px;
     }
 }
+
+.btn-java {
+    color: #ffffff;
+    background-color: #23D5AE;
+    border-color: #23D5AE;
+}
+
+.btn-java.focus,
+.btn-java:focus,
+.btn-java:hover,
+.btn-java:active,
+.btn-java.active,
+.open>.btn-java.dropdown-toggle {
+    color: #ffffff;
+    background-color: #294481;
+    border-color: #294481;
+}
+
+.btn-java.active,
+.open>.btn-java.dropdown-toggle {
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.btn-java.active:focus,
+.btn-java.active.focus,
+.open>.btn-java.dropdown-toggle:focus,
+.open>.btn-java.dropdown-toggle.focus {
+    color: #ffffff;
+    background-color: #294481;
+    border-color: #294481;
+}
+
+.btn-java.disabled,
+.btn-java[disabled],
+fieldset[disabled] .btn-java {
+    pointer-events: none;
+    opacity: .5;
+}
+
+.btn-java .badge {
+    color: #23D5AE;
+    background-color: #ffffff;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-rect {
+    border-radius: 0;
+}
