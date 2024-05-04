@@ -348,7 +348,7 @@
 .btn-java:active,
 .btn-java.active,
 .open>.btn-java.dropdown-toggle {
-    color: #ffffff;
+    color: #ffffff !important;
     background-color: #294481;
     border-color: #294481;
 }
