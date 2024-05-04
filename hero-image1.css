@@ -2,6 +2,11 @@
 
 /* Hero Image Template 1 */
 
+/* <div class="hero-content">
+<h1 style="background: linear-gradient(to right, #30CFD0, #330867); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Welcome to Our Website</h1>
+<p style="background: linear-gradient(to right, #30CFD0, #330867); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Discover Amazing Services!</p>
+<a class="btn btn-primary" style="background: linear-gradient(to right, #30CFD0, #330867); border: none;" href="#">Explore Now</a></div> */
+
 .hero-content {
         position: absolute !important;
         top: 50% !important;
