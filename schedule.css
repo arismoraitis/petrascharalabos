@@ -387,3 +387,7 @@ fieldset[disabled] .btn-java {
 .btn-rect {
     border-radius: 0;
 }
+
+a.btn.btn-java.btn-block.btn-rect {
+    text-transform: uppercase;
+}
