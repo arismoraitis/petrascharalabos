@@ -10,7 +10,7 @@
 .hero-content {
         position: relative !important;
         left: 50% !important;
-        transform: translate(-100%, -50%) !important;
+        transform: translate(-100%, 0%) !important;
     }
 
 .intro-box {
