@@ -7,6 +7,19 @@
 <div class="button-group" style="text-align: left;"><a class="button-heroimage2 button-image2 button-md-hero2" href="#">Make an appointment</a><a class="button-secondary-outline-hero2 button-image2" href="departments.html">Departments</a></div>
 </div> */
 
+.hero-content {
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        text-align: center !important;
+        color: #fff !important;
+        z-index: 1 !important;
+        white-space: nowrap; /* Prevent text from breaking */
+        display: none; /* Initially hide the hero content */
+
+    }
+
 .intro-box {
     padding: 30px;
     text-align: center;
