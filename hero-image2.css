@@ -17,6 +17,14 @@ body {
         transform: translate(-100%, 0%) !important;
     }
 
+@media (max-width: 991px) {
+.hero-content {
+        position: relative !important;
+        left: 50% !important;
+        transform: translate(-100%, 0%) !important;
+    }
+}
+
 .intro-box {
     padding: 30px;
     text-align: center;
