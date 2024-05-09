@@ -8,7 +8,9 @@
 </div> */
 
 .hero-content {
-       
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
         transform: translate(-100%, -50%) !important;
     }
 
