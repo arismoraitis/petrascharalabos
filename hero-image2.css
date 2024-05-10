@@ -31,9 +31,6 @@ div#banner_2950175 {
 @media (max-width: 991px) {
 
 .hero-content {
-        position: relative !important;
-        left: 50% !important;
-        transform: translate(-50%, 0%) !important;
         max-width: 150% !important;
         width: 150% !important;
     }
