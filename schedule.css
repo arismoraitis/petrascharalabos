@@ -1,11 +1,11 @@
 /** @section Schedule */
 
 .col-sm-4 {
-    width: 100%;
+    width: 100% !important;
 }
 
 .col-sm-7 {
-    width: 100%;
+    width: 100% !important;
 }
 
 .schedule {
