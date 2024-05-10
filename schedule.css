@@ -24,7 +24,7 @@
     transition: .2s ease-in-out;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .schedule .schedule-more {
         position: absolute;
         bottom: 0;
@@ -47,7 +47,7 @@
     background: #3b61b9;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .schedule .schedule-item.first .schedule-item-body {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
@@ -146,7 +146,7 @@
 }
 
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .div-lg-0 {
         padding-top: 0;
         padding-bottom: 0;
@@ -154,7 +154,7 @@
 }
 
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     *+.offset-lg-top-0 {
         margin-top: 0;
     }
@@ -271,7 +271,7 @@
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .section-lg-top-34 {
         padding-top: 34px;
     }
