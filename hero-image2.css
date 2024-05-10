@@ -17,8 +17,12 @@ body {
         transform: translate(-100%, 0%) !important;
     }
 
-div#banner_2950175 {
+
+@media (min-width: 769px) {
+
+      div#banner_2950175 {
       display: none;
+      }
 }
 
 
