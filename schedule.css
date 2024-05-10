@@ -394,7 +394,13 @@ a.btn.btn-java.btn-block.btn-rect {
 
 /** To column ID allazei kathe fora */
 
-@media (min-width: 769px) {
+@media (max-width: 1199px) {
+div#column_2950177 {
+    margin-top: -50px;
+}
+}
+
+@media (min-width: 1200px) {
 div#column_2950177 {
     margin-top: -150px;
 }
