@@ -1,5 +1,6 @@
-/* kodikas animation
-<script>// <![CDATA[
+<!-- kodikas animation -->
+<script>
+// <![CDATA[
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 
@@ -17,15 +18,12 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
-// ]]></script>
-*/
-/* kodikas gia animation */
+// ]]>
+</script>
 
-<script>// <![CDATA[
-//Get the button
-
-document.getElementById("scrollToTopBtn").addEventListener("click", topFunction);
-
+<!-- kodikas gia animation -->
+<script>
+// <![CDATA[
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   if (document.body.scrollTop !== 0 || document.documentElement.scrollTop !== 0) {
@@ -33,4 +31,10 @@ function topFunction() {
         requestAnimationFrame(topFunction);
     }
 }
-// ]]></script>
+
+// Get the button
+var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+if (scrollToTopBtn) {
+    scrollToTopBtn.addEventListener("click", topFunction);
+}
+// ]]>
