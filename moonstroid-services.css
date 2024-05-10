@@ -39,6 +39,9 @@
     padding-left: 0;
 }
 
+.blurb__title.heading-6 a:hover {
+    color: white !important;
+}
 
 /*
 *
