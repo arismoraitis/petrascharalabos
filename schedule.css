@@ -1,5 +1,13 @@
 /** @section Schedule */
 
+.col-sm-4 {
+    width: 100%;
+}
+
+.col-sm-7 {
+    width: 100%;
+}
+
 .schedule {
     color: #ffffff;
 }
