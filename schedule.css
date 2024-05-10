@@ -55,7 +55,7 @@
     background: #3b61b9;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .schedule .schedule-item.first .schedule-item-body {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
