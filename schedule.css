@@ -309,32 +309,6 @@
     }
 }
 
-@media (min-width: 768px) {
-    *+.offset-md-top-0 {
-        margin-top: 0;
-    }
-    *+.offset-md-top-20 {
-        margin-top: 20px;
-    }
-    *+.offset-md-top-30 {
-        margin-top: 30px;
-    }
-    *+.offset-md-top-60 {
-        margin-top: 60px;
-    }
-    *+.offset-md-top-66 {
-        margin-top: 66px;
-    }
-    *+.offset-md-top-70 {
-        margin-top: 70px;
-    }
-    *+.offset-md-top-90 {
-        margin-top: 90px;
-    }
-    *+.offset-md-top-110 {
-        margin-top: 110px;
-    }
-}
 
 .btn-java {
     color: #ffffff;
