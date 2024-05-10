@@ -32,7 +32,7 @@
     transition: .2s ease-in-out;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .schedule .schedule-more {
         position: absolute;
         bottom: 0;
@@ -55,7 +55,7 @@
     background: #3b61b9;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .schedule .schedule-item.first .schedule-item-body {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
