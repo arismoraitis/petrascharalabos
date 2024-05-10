@@ -21,18 +21,21 @@ div#banner_2950175 {
       display: none;
 }
 
-@media (max-width: 991px) {
+
+@media (max-width: 768px) {
 
       div#banner_2950425 {
       display: none;
       }
-      
+}
+@media (max-width: 991px) {
+
 .hero-content {
         position: relative !important;
         left: 50% !important;
         transform: translate(-50%, 0%) !important;
-        max-width: 100% !important;
-        width: 100% !important;
+        max-width: 150% !important;
+        width: 150% !important;
     }
       .intro-box.wow.fadeInLeft h1 {
     font-size: 28px;
