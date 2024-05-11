@@ -2199,13 +2199,14 @@ a.thumbnail-classic-title:hover {
     margin-top: 15px;
     background: #00bcd4;
     will-change: transform, opacity;
+    
 }
 
 .heading-decorated_center::after,
 .parallax-header .heading-decorated::after,
 .text-center .heading-decorated::after {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 @media (min-width: 768px) {
