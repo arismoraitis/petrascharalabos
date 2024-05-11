@@ -2134,3 +2134,31 @@ a.thumbnail-classic-title:hover {
         padding-left: 40px;
     }
 }
+
+.rd-navbar-static .rd-navbar-search .form-wrap,
+.rd-navbar-sidebar .rd-navbar-search .form-wrap {
+    padding-right: 90px;
+}
+
+@media (min-width: 768px) {
+    #appointment .modal-body form .form-wrap:nth-child(1),
+    #appointment .modal-body form .form-wrap:nth-child(2) {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+.page .button-primary {
+    color: #fff;
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+}
+
+.page .button-primary:hover,
+.page .button-primary:focus,
+.page .button-primary:active,
+.page .button-primary:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
