@@ -10,6 +10,8 @@
 * --------------------------------------------------
 */
 
+
+
 .rd-mailform {
     position: relative;
     text-align: left;
@@ -2186,4 +2188,41 @@ a.thumbnail-classic-title:hover {
     color: #fff;
     background-color: #000;
     border-color: #000;
+}
+
+.heading-decorated::after {
+    content: '';
+    position: relative;
+    display: block;
+    height: 1px;
+    width: 35px;
+    margin-top: 15px;
+    background: #00bcd4;
+    will-change: transform, opacity;
+}
+
+.heading-decorated_center::after,
+.parallax-header .heading-decorated::after,
+.text-center .heading-decorated::after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .heading-decorated::after {
+        width: 50px;
+    }
+    h1.heading-decorated::before,
+    .heading-1.heading-decorated::before {
+        width: 115px;
+    }
+}
+
+.post-single__header .heading-decorated::before {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-accent .heading-decorated::before {
+    background: #fff;
 }
