@@ -17,6 +17,9 @@ body {
         transform: translate(-50%, 0%) !important;
     }
 
+.intro-contact-box p {
+    line-height: 35px;
+}
 
 @media (min-width: 769px) {
 
