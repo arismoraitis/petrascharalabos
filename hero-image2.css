@@ -25,6 +25,7 @@ body {
         transform: translate(-50%, 0) !important;
         max-width: 150% !important;
         width: 150% !important;
+        text-align: center !important;
     }
       .intro-box.wow.fadeInLeft h1 {
     font-size: 24px;
