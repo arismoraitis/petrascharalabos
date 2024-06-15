@@ -41,7 +41,10 @@ body {
         max-width: 150% !important;
         width: 150% !important;
     }
-a.button-heroimage2.button-image2.button-md-hero2 {
+div#line_2954414 a.button-heroimage2.button-image2.button-md-hero2 {
+    width: 100%;
+}
+div#line_2954415 a.button-heroimage2.button-image2.button-md-hero2 {
     width: 100%;
 }
 }
