@@ -1,5 +1,27 @@
 @charset "UTF-8";
 
+@media (min-width: 1200px) {
+
+div#menu .col-lg-2 {
+        width: 45%;
+    }
+
+a.navbar-brand img {
+    max-width: 100% !important;
+}
+
+nav#headerComp {
+    min-height: auto !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav#headerComp .container {
+margin-left: 0 !important;
+max-width: -webkit-fill-available; 
+}
+}
+
 /* gia diorthosi tou ogibiz menu */
 .pad-10 p{
  padding: 0px 10%;
